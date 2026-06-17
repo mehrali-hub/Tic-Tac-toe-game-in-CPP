@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arcane Tic‑Tac‑Toe</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="app">
+    <section id="welcome" class="screen">
+      <div class="card">
+        <h1>Arcane Tic‑Tac‑Toe</h1>
+        <p class="lead">A handcrafted, modern Tic‑Tac‑Toe with C++ core logic.</p>
+        <form id="loginForm" class="login-form">
+          <label>Player 1
+            <input id="player1Name" maxlength="18" placeholder="Player 1 name">
+          </label>
+          <label>Player 2
+            <input id="player2Name" maxlength="18" placeholder="Player 2 name">
+          </label>
+          <div class="row">
+            <button id="startBtn" class="btn primary" type="button">Start Game</button>
+          </div>
+        </form>
+        <p class="muted">Hint mode available during play. Optional WebAssembly integration.</p>
+      </div>
+    </section>
+
+    <section id="game" class="screen hidden">
+      <header class="topbar">
+        <div class="players">
+          <div class="player left">
+            <div class="avatar x">X</div>
+            <div class="meta"><div id="p1Name" class="name">Player 1</div><div class="score">Score: <span id="p1Score">0</span></div></div>
+          </div>
+          <div class="center">
+            <div id="turnText" class="turn">Turn: <span id="turnName"></span></div>
+            <div class="round">Round <span id="roundCounter">1</span></div>
+          </div>
+          <div class="player right">
+            <div class="avatar o">O</div>
+            <div class="meta"><div id="p2Name" class="name">Player 2</div><div class="score">Score: <span id="p2Score">0</span></div></div>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="hintBtn" class="btn ghost">Hint</button>
+          <button id="restartBtn" class="btn">Restart</button>
+          <button id="newMatchBtn" class="btn alt">New Match</button>
+        </div>
+      </header>
+
+      <section class="board-area">
+        <div id="board" class="board" role="grid"></div>
+        <svg id="winOverlay" class="win-overlay" viewBox="0 0 300 300" preserveAspectRatio="none"></svg>
+      </section>
+
+      <div id="message" class="message hidden"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
