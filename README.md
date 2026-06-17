@@ -68,6 +68,9 @@ ttt_demo
 
 This project is not just a basic grid of buttons. It combines a compact object-oriented C++ engine with a smooth front end, giving you a good example of how game logic can stay separate from presentation. That makes it a solid starter project for anyone learning OOP, browser integration, or WebAssembly.
 
+<img width="1083" height="562" alt="Screenshot 2026-06-17 170911" src="https://github.com/user-attachments/assets/5c53fb00-d835-4549-90eb-61b9bcf09d9e" />
+
+
 ## Notes
 
 - The browser UI includes a local JavaScript fallback, so the game remains playable even without building the C++ core.
