@@ -1,3 +1,4 @@
+<img width="874" height="433" alt="Screenshot 2026-06-17 171313" src="https://github.com/user-attachments/assets/44b1eb3a-3eee-473f-9e83-3664293e200b" />
 # Arcane Tic-Tac-Toe
 
 > A polished Tic-Tac-Toe experience with clean C++ OOP game logic and a modern browser interface.
