@@ -1,4 +1,4 @@
-<img width="874" height="433" alt="Screenshot 2026-06-17 171313" src="https://github.com/user-attachments/assets/44b1eb3a-3eee-473f-9e83-3664293e200b" />
+
 # Arcane Tic-Tac-Toe
 
 > A polished Tic-Tac-Toe experience with clean C++ OOP game logic and a modern browser interface.
@@ -14,6 +14,7 @@ Arcane Tic-Tac-Toe blends a compact C++ engine with a responsive HTML/CSS/JavaSc
 - Animated, responsive interface for desktop and mobile
 - Optional WebAssembly integration for the C++ core
 - JavaScript fallback so the game runs immediately in a browser
+- <img width="874" height="433" alt="Screenshot 2026-06-17 171313" src="https://github.com/user-attachments/assets/44b1eb3a-3eee-473f-9e83-3664293e200b" />
 
 ## Tech Stack
 
